@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skillacer - Freelance Platform for Freshers</title>
+    <link rel="stylesheet" href="SIH.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">Skillacer</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="login.html">login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h1>Welcome to Skillacer</h1>
+        <p>Your Gateway to Freelance Success</p>
+        <button onclick="learnMore()">Learn More</button>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Skillacer is a unique freelance platform that focuses on providing freshers with more opportunities to earn money and gain valuable experience. Our mission is to bridge the gap between beginners and the freelancing world.</p>
+        <div class="mission">
+            <div class="mission-item">
+                <div class="icon">&#x1F680;</div>
+                <h3>Our Mission</h3>
+                <p>Empowering freshers by connecting them with meaningful projects and ensuring fair compensation for their work.</p>
+            </div>
+            <div class="mission-item">
+                <div class="icon">&#x1F4BB;</div>
+                <h3>Our Vision</h3>
+                <p>To become the leading platform for freshers in the freelancing industry, known for reliability and opportunities.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="features">
+        <h2>Why Choose Us?</h2>
+        <div class="feature-cards">
+            <div class="card">
+                <div class="card-icon">&#x1F4C8;</div>
+                <h3>More Opportunities</h3>
+                <p>We focus on creating more job opportunities for freshers to kickstart their freelancing career.</p>
+            </div>
+            <div class="card">
+                <div class="card-icon">&#x1F4AA;</div>
+                <h3>Expert Guidance</h3>
+                <p>Get tips and mentorship from industry experts to enhance your skills and knowledge.</p>
+            </div>
+            <div class="card">
+                <div class="card-icon">&#x1F4B8;</div>
+                <h3>Secure Payments</h3>
+                <p>We ensure all transactions are secure, giving you peace of mind while you work.</p>
+            </div>
+            <div class="card">
+                <div class="card-icon">&#x1F4DA;</div>
+                <h3>Project Management Tools</h3>
+                <p>Our platform offers built-in tools to help you manage your projects efficiently.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing">
+        <h2>Our Pricing Plans</h2>
+        <div class="pricing-cards">
+            <div class="pricing-card">
+                <div class="card-icon">&#x1F4B0;</div>
+                <h3>Basic</h3>
+                <p>Free</p>
+                <p>Includes access to basic features and limited project applications.</p>
+                <button onclick="selectPlan('Basic')">Choose Plan</button>
+            </div>
+            <div class="pricing-card">
+                <div class="card-icon">&#x1F4B2;</div>
+                <h3>Pro</h3>
+                <p>$9.99/month</p>
+                <p>Unlock advanced features, unlimited project applications, and priority support.</p>
+                <button onclick="selectPlan('Pro')">Choose Plan</button>
+            </div>
+            <div class="pricing-card">
+                <div class="card-icon">&#x1F4B5;</div>
+                <h3>Premium</h3>
+                <p>$19.99/month</p>
+                <p>All features included, along with one-on-one mentoring sessions and project boosts.</p>
+                <button onclick="selectPlan('Premium')">Choose Plan</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions? Reach out to us through the form below, and we’ll get back to you shortly.</p>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Skillacer. All Rights Reserved.</p>
+    </footer>
+
+    <script src="SIH.js"></script>
+</body>
+
+</html>
